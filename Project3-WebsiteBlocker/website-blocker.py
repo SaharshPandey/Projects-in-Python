@@ -21,7 +21,7 @@ else:
             print(file)
 
 while True:
-    if(9<datetime.datetime.now().time().hour<22):
+    if(9<datetime.datetime.now().time().hour<23):
         print('Working Hours\n')
         with open(linux_path,"r+") as hosts:
             content=hosts.read()
