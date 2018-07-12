@@ -9,7 +9,7 @@ Created on Tue May  1 00:52:12 2018
 from tkinter import *
 import backend
 root=Tk()
-root.wm_title("BookStor")
+root.wm_title("BookStore")
 
 def get_row_selected(event):
     try:
