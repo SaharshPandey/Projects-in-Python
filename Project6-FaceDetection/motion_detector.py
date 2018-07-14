@@ -1,6 +1,6 @@
 import cv2 as cv
 from datetime import datetime
-import pandas
+import pandas,imutils
 first_frame=None    #stores the first frame...
 status_list=[None,None]    #stroing the status if objects
 times=[]    #storing the datetime for objects
@@ -9,6 +9,7 @@ video=cv.VideoCapture(0)
 while True:
     #two attributes check->:boolean that tells video is recording..while frame :-> ndarray
         check,frame=video.read()
+        frame = imutils.resize(frame, width=500)
     #this status=0 means there is no motion right now..
         status=0
         #print(check)
@@ -23,20 +24,23 @@ while True:
             continue    #now if we continue then there will be no first frame,because it is pre generated.
 
         delta_frame=cv.absdiff(first_frame,gray) #this finding the diff between the first frame(background) and other frames of video.
-        thresh_frame=cv.threshold(delta_frame,30,255,cv.THRESH_BINARY)[1] #create threshold frame
-        thresh_frame=cv.dilate(thresh_frame,None,iterations=2) #dilate means making tthe edges smoother
+        #thresh_frame=cv.threshold(delta_frame,50,255,cv.THRESH_BINARY)[1] #create threshold frame
 
+        #thresh_frame=cv.adaptiveThreshold(delta_frame,255,cv.ADAPTIVE_THRESH_MEAN_C ,cv.THRESH_BINARY,11,2)
+        thresh_frame=cv.threshold(delta_frame,160,255,cv.THRESH_BINARY)[1]
+        thresh_frame=cv.dilate(thresh_frame,None,iterations=2 ) #dilate means making tthe edges smoother
     #finding the contours which helps to find out objects in a frame.
         (_,cnts,_)=cv.findContours(thresh_frame.copy(),cv.RETR_EXTERNAL,cv.CHAIN_APPROX_SIMPLE)
         for contour in cnts:
             #if area of object is less then 1000 then we will continue otherwise there is an object.
-            if cv.contourArea(contour)<1000:
+            if cv.contourArea(contour)<15000:
                 continue
             status=1 #this implies there is an object in a frame
             (x,y,w,h)=cv.boundingRect(contour) # finding the corners of object in a frame.
-            cv.rectangle(frame,(x,y),(x+w,y+h),(0,255,0),3) # making out rectangle for every objects
+            cv.rectangle(frame,(x,y),(x+w,y+h),(0,255,0),2) # making out rectangle for every objects
     #appending all the incoming and outgoing of the object in an frame
         status_list.append(status)
+        status_list=status_list[-2:]
 
     #checking the datetime of apearing object
         if status_list[-1]==1 and status_list[-2]==0:
