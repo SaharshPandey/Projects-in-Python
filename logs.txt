@@ -1,0 +1,140 @@
+commit 4379c51f524c2439cd3203c39e07b0bd35c24a82
+Author: saharsh <saharshpandeybolt@gmail.com>
+Date:   Fri Aug 10 20:56:35 2018 +0530
+
+    Deleted files of Heroku master from Project4-WebDevelopment
+
+commit 238224801c2089390d44859824792f087b2fdc44
+Author: saharsh <saharshpandeybolt@gmail.com>
+Date:   Fri Aug 10 20:55:03 2018 +0530
+
+    Deleted files of Heroku master from Project4-WebDevelopment
+
+commit e7d08fa3dedf6b6b4b3987e554044aba623b5465
+Author: saharsh <saharshpandeybolt@gmail.com>
+Date:   Fri Aug 10 20:52:07 2018 +0530
+
+    Deleted files of Heroku master from Project9-Postgresql-Flask-App
+
+commit 708b50277c7bd2fe6a69decc1270e3b47a75889a
+Author: saharsh <saharshpandeybolt@gmail.com>
+Date:   Fri Aug 10 14:11:20 2018 +0530
+
+    Project10 Changes
+
+commit 03e1e1399f3396847d432e59645799ced55f609b
+Author: saharsh <saharshpandeybolt@gmail.com>
+Date:   Wed Aug 8 14:53:40 2018 +0530
+
+    Added 10th Project
+
+commit 2ed6b90e9653fa6bddb5e346de62a0082f3062af
+Author: saharsh <saharshpandeybolt@gmail.com>
+Date:   Wed Aug 8 14:52:39 2018 +0530
+
+    Added 9th Project
+
+commit f7a938a77bbbb2ba5b773e7cdf0d4ce40fddef31
+Author: saharsh <saharshpandeybolt@gmail.com>
+Date:   Fri Aug 3 16:26:42 2018 +0530
+
+    Added 8th Project
+
+commit e034c35a7cb02e3d993316f6e7b03b62c6e6384f
+Author: saharsh <saharshpandeybolt@gmail.com>
+Date:   Sat Jul 21 21:57:39 2018 +0530
+
+    Project-7 -Scraping Data from Real Estate Property Website
+
+commit 5ecd267f6feb3e8381f60d05de1a5e746fab124f
+Author: saharsh <saharshpandeybolt@gmail.com>
+Date:   Sat Jul 14 12:41:23 2018 +0530
+
+    Added graph plotting in Bokeh
+
+commit 9a0fb044a00df44c726dd45771d6484f800981bc
+Author: saharsh <saharshpandeybolt@gmail.com>
+Date:   Thu Jul 12 10:48:24 2018 +0530
+
+    Project6
+
+commit 75a9b594577dae261aa5735ee1735e14e0135dda
+Author: saharsh <saharshpandeybolt@gmail.com>
+Date:   Thu May 10 00:17:53 2018 +0530
+
+    tkinter
+
+commit 51cac9322c58aa90ec651a381c50147e1f6b77bf
+Author: saharsh <saharshpandeybolt@gmail.com>
+Date:   Thu Apr 26 22:19:44 2018 +0530
+
+    Tkinter Example
+
+commit 01fbfdade934bac318f1829b7fe6cd6c312bb5d4
+Author: saharsh <saharshpandeybolt@gmail.com>
+Date:   Wed Apr 25 01:26:38 2018 +0530
+
+    repo in repo///renaming
+
+commit f70fdbcc8fa8ce30337871a79ef669c5d97b3536
+Author: saharsh <saharshpandeybolt@gmail.com>
+Date:   Wed Apr 25 01:23:49 2018 +0530
+
+    repo in repo///flask application
+
+commit a3a60571c2894faaf7c24c8e26edf2bfdee6b707
+Author: Saharsh Pandey <saharshpandeybolt@gmail.com>
+Date:   Mon Apr 23 11:46:52 2018 +0530
+
+    Create HelloWorld.py
+
+commit 4d12706542f7931af02ae6b411f75014ef17e118
+Author: Saharsh Pandey <saharshpandeybolt@gmail.com>
+Date:   Mon Apr 23 11:38:27 2018 +0530
+
+    Update README.md
+
+commit ab60b20a0702d42e6eb5770f5413882670943994
+Author: Saharsh Pandey <saharshpandeybolt@gmail.com>
+Date:   Mon Apr 23 11:36:08 2018 +0530
+
+    Create README.md
+
+commit 0a7bfcc24c2b7dd602400a9e8c3849adb618ca47
+Author: Saharsh Pandey <saharshpandeybolt@gmail.com>
+Date:   Mon Apr 23 11:29:36 2018 +0530
+
+    Update README.md
+
+commit 9e78623b40d470f5dc08a0efbe33df256a6b68a5
+Author: Saharsh Pandey <saharshpandeybolt@gmail.com>
+Date:   Mon Apr 23 11:28:47 2018 +0530
+
+    Create README.md
+
+commit 6b327dc475e7d14812c05add4fc1b9f2b701c5d1
+Author: Saharsh Pandey <saharshpandeybolt@gmail.com>
+Date:   Mon Apr 23 11:22:09 2018 +0530
+
+    Create README.md
+    
+    Readme for First Project
+
+commit 866718e81cd6e164a8b48bd90364c92b54c22b5a
+Merge: 7025814 8bc26ad
+Author: saharsh <saharshpandeybolt@gmail.com>
+Date:   Mon Apr 23 11:13:54 2018 +0530
+
+    Merge branch 'master' of https://github.com/SaharshPandey/Projects-in-Python
+
+commit 70258142b3f451d2430f0198b05362e6032c5832
+Author: saharsh <saharshpandeybolt@gmail.com>
+Date:   Mon Apr 23 11:09:12 2018 +0530
+
+    First Commit
+
+commit 8bc26adf8a16bc12f217615a8c79fd44bf32d7d9
+Author: Saharsh Pandey <saharshpandeybolt@gmail.com>
+Date:   Mon Apr 23 10:47:13 2018 +0530
+
+    Initial commit
