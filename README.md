@@ -1,5 +1,5 @@
 # Projects-in-Python
-**10 Real Life Applications that i made in Python.. **
+**10 Real Life Applications that i made in Python.. 
   
   1. **Dictionary**
   
